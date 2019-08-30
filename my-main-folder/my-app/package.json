@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "http://SOORYAPICHAI.github.io/USA-Product",
   "dependencies": {
+    "@material-ui/core": "^4.2.1",
+    "@material-ui/icons": "^4.2.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
@@ -11,7 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
