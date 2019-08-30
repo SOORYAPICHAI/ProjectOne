@@ -18,14 +18,14 @@ const Header = () => {
     return(
         <>
         <Grid container xs={12} className="backgroundheader">
-            <Grid container item xs={6} sm={6} md={4} lg={4} xl={4} justify="space-around" className="logoAlign">
+            <Grid container item xs={6} sm={6} md={4} lg={4} xl={4} justify="space-around" alignItems="center" className="logoAlign">
             {/* <img src= {logo} /> */}
             <Grid item xs={12} className="logo">
-            The Logo ...
+            Medical Health
             </Grid>
-            <Grid item xs={12} className="logosub">
+            {/* <Grid item xs={12} className="logosub">
            Medical Health
-            </Grid>
+            </Grid> */}
             
             </Grid>
             <Grid container item xs={6} sm={6} md={8} lg={8} xl={8}  className="fontAlign">

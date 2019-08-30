@@ -73,6 +73,9 @@ border-bottom-right-radius: 20px;
     font-size: 1.5rem;
     display:none;
 }
+.logoAlign{
+    margin: auto;
+}
 .fontAlign{
     justify-content: flex-end;
 }
