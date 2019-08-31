@@ -18,6 +18,23 @@ const useStyles = makeStyles(theme => ({
                 padding:'20px !important',
                 },
     },
+    bottomPad:{
+        padding:'3%',
+        // background:'whitesmoke',
+        [theme.breakpoints.down('sm')]: {
+          
+            paddingBottom:'45px !important',
+            },
+        [theme.breakpoints.up('sm')]: {
+          
+            paddingBottom:'85px',
+                },
+                [theme.breakpoints.up('lg')]: {
+          
+                    paddingBottom:'110px',
+                        },
+    
+    },
    
    
   }));
@@ -45,7 +62,7 @@ const ContentThree = () =>{
         }
       };
     return(
-        <div style={{background: 'linear-gradient(to bottom, #52ca9c 0%,#52ca9c 50%,#52ca9c 50%,white 50%,white 100%)' }}>
+        <div className={classes.bottomPad} style={{background: 'linear-gradient(to bottom, #52ca9c 0%,#52ca9c 50%,#52ca9c 50%,white 50%,white 100%)' }}>
         <Container maxWidth={state} >
             <Grid container xs={12} style={{padding:'20px'}}>
                 <Grid item xs={12} className="headingContenThree">

@@ -5,6 +5,7 @@ import Header from './header/index'
 import ContentOne from './ContentOne/index'
 import ContentTwo from './ContentTwo/index'
 import ContentThree from './ContentThree/index'
+import ContentFour from './ContentFour/index'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ContentOne />
       <ContentTwo />
       <ContentThree />
+      <ContentFour />
 
     </div>
   );
