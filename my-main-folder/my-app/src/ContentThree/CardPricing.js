@@ -20,12 +20,15 @@ const useStyles = makeStyles(theme => ({
     // 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important
   },
   media: {
-    width: "30%"
+    width: "100px",
+    height:'auto',
+
   },
   mediaDiv: {
     paddingTop: "10.25%", // 16:9
     display: "flex",
-    justifyContent: "center"
+    justifyContent: "center",
+    // width: "30%"
   },
   expand: {
     transform: "rotate(0deg)",
