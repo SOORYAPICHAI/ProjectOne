@@ -16,7 +16,7 @@ export default class ReactSlickDemo extends React.Component {
     };
     return (
         
-      <div className="container" style={{width:'100%'}}>
+      <div className="container" style={{width:'100%'}} data-aos="zoom-in">
        
         <Slider {...settings}>
             <MediaControlCard />

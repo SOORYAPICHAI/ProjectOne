@@ -78,7 +78,7 @@ const ContentPaper = () => {
                     {/*  */}
                   
                     <Grid container item xs={12} style={{padding:'2%'}}>
-                        <Paper style={{width:'100%' , padding:'3%', borderLeft:'5px solid #52ca9c'}}>
+                        <Paper style={{width:'100%' , padding:'3%', borderLeft:'5px solid #52ca9c'}} data-aos="fade-right">
                             <Grid container item xs={12}>
                                 <Grid item xs={10} style={{color:'#52ca9c', fontWeight:'bold',display:'flex',justifyContent:'flex-start'}}
                                 onClick={handleChangepaperOne}
@@ -117,7 +117,7 @@ const ContentPaper = () => {
 
                     {/*  */}
                     <Grid container item xs={12} style={{padding:'2%'}}>
-                        <Paper style={{width:'100%', padding:'3%' , borderLeft:'5px solid #52ca9c'}}>
+                        <Paper style={{width:'100%', padding:'3%' , borderLeft:'5px solid #52ca9c'}} data-aos="fade-right">
                             <Grid container xs={12}>
                                 <Grid item xs={10} style={{color:'#52ca9c', fontWeight:'bold',display:'flex',justifyContent:'flex-start'}}
                                 onClick={handleChangepaperTwo}
@@ -154,7 +154,7 @@ const ContentPaper = () => {
 
                     {/*  */}
                     <Grid container item xs={12} style={{padding:'2%'}}>
-                        <Paper style={{width:'100%', padding:'3%' , borderLeft:'5px solid #52ca9c'}}>
+                        <Paper style={{width:'100%', padding:'3%' , borderLeft:'5px solid #52ca9c'}} data-aos="fade-right">
                             <Grid container xs={12}>
                                 <Grid item xs={10} style={{color:'#52ca9c', fontWeight:'bold',display:'flex',justifyContent:'flex-start'}}
                                 onClick={handleChangepaperThree}
@@ -191,7 +191,7 @@ const ContentPaper = () => {
 
                     {/*  */}
                     <Grid container item xs={12} style={{padding:'2%'}}>
-                        <Paper style={{width:'100%', padding:'3%' , borderLeft:'5px solid #52ca9c'}}>
+                        <Paper style={{width:'100%', padding:'3%' , borderLeft:'5px solid #52ca9c'}} data-aos="fade-right">
                             <Grid container xs={12}>
                                 <Grid item xs={10} style={{color:'#52ca9c', fontWeight:'bold',display:'flex',justifyContent:'flex-start'}} 
                                 onClick={handleChangepaperFour}
@@ -226,7 +226,7 @@ const ContentPaper = () => {
 
                     </Grid>
                 </Grid>
-                <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.imgClass}>
+                <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.imgClass} data-aos="zoom-in-up">
                    <img src={faq} alt = "" width="100%"/>
         </Grid>
             </Grid>

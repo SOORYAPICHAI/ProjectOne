@@ -57,7 +57,7 @@ export default function MediaControlCard() {
   const theme = useTheme();
 
   return (
-    <Card className={classes.card}>
+    <Card className={classes.card} >
       <div className={classes.details}>
         <CardContent className={classes.content}>
           <Typography component="h5" variant="h5" style={{color:'#52ca9c',textAlign:'left',padding:'0.5rem',fontWeight:'bold',fontFamily: 'cursive'}}>

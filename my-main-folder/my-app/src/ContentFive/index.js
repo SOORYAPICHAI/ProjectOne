@@ -25,12 +25,11 @@ const useStyles = makeStyles(theme => ({
 const ContentFive = () => {
     const classes = useStyles();
     return(
-        <Grid className={classes.bottomPad} container xs={12}>
-            <Grid item xs={12}>
-            <ContentPaper />
-            </Grid>
-        </Grid>
         
+        <div className={classes.bottomPad}>
+            <ContentPaper />
+            </div>
+      
     );
 }
 

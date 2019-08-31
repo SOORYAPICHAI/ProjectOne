@@ -35,7 +35,7 @@ const ContentFour = () => {
             Streamlining different processes and workflows by using user access control Onebook prompts efficiency and productivity levels of an organization, and reduces operating costs.
             </Grid>
             </Grid>
-            <Grid item xs={12}>
+            <Grid item xs={12} data-aos="zoom-out-right">
             <CarouselContent/>
             </Grid>
       

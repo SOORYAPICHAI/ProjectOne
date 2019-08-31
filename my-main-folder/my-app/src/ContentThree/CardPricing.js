@@ -93,7 +93,7 @@ const useStyles = makeStyles(theme => ({
 export default function RecipeReviewCard() {
   const classes = useStyles();
   return (
-    <Card className={classes.card}>
+    <Card className={classes.card}  data-aos="flip-left">
       <div className={classes.mediaDiv}>
         <img
           src="https://marketplace.magento.com/media/catalog/product//o/f/offer-timer-icon2_2.png"
