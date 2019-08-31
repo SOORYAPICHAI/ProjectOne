@@ -12,8 +12,18 @@ const useStyles = makeStyles(theme => ({
     display: "flex",
     minWidth: "100%",
     maxWidth: "100%",
-    Height: "100%",
+    minHeight: "400px",
+    [theme.breakpoints.down('sm')]: {
+          
+      minHeight: "100%",
+      },
     boxShadow: "0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19) !important"
+  },
+  hideCarouseltxt:{
+    [theme.breakpoints.down('sm')]: {
+          
+    display:'none'
+      },
   },
   details: {
     display: "flex",
@@ -50,14 +60,20 @@ export default function MediaControlCard() {
     <Card className={classes.card}>
       <div className={classes.details}>
         <CardContent className={classes.content}>
-          <Typography component="h5" variant="h5">
+          <Typography component="h5" variant="h5" style={{color:'#52ca9c',textAlign:'left',padding:'0.5rem',fontWeight:'bold',fontFamily: 'cursive'}}>
             Dental Event
           </Typography>
-          <Typography variant="subtitle1" color="textSecondary">
+          <Typography variant="subtitle1" color="textSecondary" style={{textAlign:'left'}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
             ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
             accumsan lacus vel facilisis.
+            <span className={classes.hideCarouseltxt}>
+<br />
+<br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </span>       
           </Typography>
         </CardContent>
         <div className={classes.controls}>

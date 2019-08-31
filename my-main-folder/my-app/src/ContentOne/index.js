@@ -27,6 +27,9 @@ const useStyles = makeStyles(theme => ({
         [theme.breakpoints.only('xs')]: {
             paddingBottom:'45px',
             },
+            [theme.breakpoints.down('lg')]: {
+                paddingBottom:'45px',
+                },
     }
    
    
@@ -35,7 +38,7 @@ const ContentOne = () => {
     const classes = useStyles();
     return (
         <Grid container xs={12} className={classes.pad} >
-            <Grid container item xs={12} sm={12} md={12} lg={6} xl={6} justify="flex-start" className={classes.padBottom}>
+            <Grid container item xs={12} sm={12} md={12} lg={5} xl={5} justify="flex-start" alignContent="center" className={classes.padBottom}>
                 <Grid container item xs={12} justify="flex-start" className="contentOneTxtOne">
                 One Stop
                 </Grid>
@@ -51,6 +54,7 @@ const ContentOne = () => {
                 <Grid container item xs={12} justify="flex-start"  style={{color:'#a9a8a8',textAlign:'left'}}>
                     <Grid container item xs={12} sm={8} md={6} lg={8} xl={8}  >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    
                     </Grid>
                 
                 </Grid>
@@ -60,7 +64,7 @@ const ContentOne = () => {
             
             </Grid>
             </Grid>
-            <Grid container item xs={12} sm={12} md={12} lg={6} xl={6} className='cardshadow'>
+            <Grid container item xs={12} sm={12} md={12} lg={7} xl={7} className='cardshadow'>
             <CarouselComponent/>
             </Grid>
         </Grid>

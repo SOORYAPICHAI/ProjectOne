@@ -13,11 +13,18 @@ const useStyles = makeStyles(theme => ({
     boxShadow:
       "0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important",
     "&:hover": {
-      boxShadow:
-        "0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important"
-    }
+    
 
     // 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important
+    '&:hover':{
+       
+        transition: 'all 200ms ease-in',
+        transform: 'scale(1.1)',
+        boxShadow:
+        "0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important"
+    },
+    }
+
   },
   media: {
     width: "100px",

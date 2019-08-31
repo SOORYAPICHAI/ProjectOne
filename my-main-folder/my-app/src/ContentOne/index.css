@@ -5,6 +5,7 @@
 
 
   .typewriter span {
+    height:max-content;
     color:#52ca9c;
     font-size: 2.5rem;
     font-weight: bold;
