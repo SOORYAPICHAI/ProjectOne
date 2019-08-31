@@ -6,6 +6,7 @@ import ContentOne from './ContentOne/index'
 import ContentTwo from './ContentTwo/index'
 import ContentThree from './ContentThree/index'
 import ContentFour from './ContentFour/index'
+import ContentFive from './ContentFive/index'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ContentThree />
       <ContentFour />
       {/* <ContentTwo /> */}
+      <ContentFive />
 
     </div>
   );
