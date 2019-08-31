@@ -29,6 +29,12 @@ const useStyles = makeStyles(theme => ({
 
            paddingBottom:'10% !important'
         },
+    },
+    imgClass:{
+        [theme.breakpoints.down('sm')]: {
+
+            display:'none'
+         },
     }
 }));
 
@@ -58,7 +64,7 @@ const ContentPaper = () => {
               Faq's
               </Grid>
               <Grid container item xs={12} justify="center">
-              <Grid item xs={8} justify="center" className="subHeadingContenThree">
+              <Grid item xs={12} sm={12} md={8} lg={6} xl={4} justify="center" className="subHeadingContenThree">
               we believe in making simple and fair pricing plans. Choose your next successful plan and get started today!.
               </Grid>    
               </Grid>
@@ -92,7 +98,7 @@ const ContentPaper = () => {
                                 </Grid>
                             </Grid>
 
-                            <Grid container item xs={12}>
+                            <Grid container item xs={12} justify="flex-start" style={{textAlign:'left',color:'rgba(0, 0, 0, 0.54)'}}>
                                 <div className={classes.container}>
                                     <Collapse in={paperOne}>
                                       
@@ -130,7 +136,7 @@ const ContentPaper = () => {
                                     </span>
                                 </Grid>
                             </Grid>
-                            <Grid container xs={12}>
+                            <Grid container xs={12} justify="flex-start" style={{textAlign:'left',color:'rgba(0, 0, 0, 0.54)'}}>
                                 <Grid item xs={12}>
                                     <div className={classes.container}>
                                         <Collapse in={paperTwo}>
@@ -167,7 +173,7 @@ const ContentPaper = () => {
                                     </span>
                                 </Grid>
                             </Grid>
-                            <Grid container xs={12}>
+                            <Grid container xs={12} justify="flex-start" style={{textAlign:'left',color:'rgba(0, 0, 0, 0.54)'}}>
                                 <Grid item xs={12}>
                                     <div className={classes.container}>
                                         <Collapse in={paperThree}>
@@ -204,7 +210,7 @@ const ContentPaper = () => {
                                     </span>
                                 </Grid>
                             </Grid>
-                            <Grid container xs={12}>
+                            <Grid container xs={12} justify="flex-start" style={{textAlign:'left',color:'rgba(0, 0, 0, 0.54)'}}>
                                 <Grid item xs={12}>
                                     <div className={classes.container}>
                                         <Collapse in={paperFour}>
@@ -220,7 +226,7 @@ const ContentPaper = () => {
 
                     </Grid>
                 </Grid>
-                <Grid container item xs={12} sm={12} md={6} lg={6} xl={6}>
+                <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.imgClass}>
                    <img src={faq} alt = "" width="100%"/>
         </Grid>
             </Grid>
