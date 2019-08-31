@@ -1,11 +1,27 @@
 import React from 'react'
 import { Grid, Button } from '@material-ui/core'
 import './index.css'
+import { makeStyles } from '@material-ui/core/styles';
 import CarouselComponent from './CarouselComponent'
 
+
+const useStyles = makeStyles(theme => ({
+  
+    pad:{
+        [theme.breakpoints.only('xs')]: {
+            paddingBottom:'15px',
+            },
+        [theme.breakpoints.up('sm')]: {
+            paddingBottom:'85px',
+                },
+    }
+   
+   
+  }));
 const ContentOne = () => {
+    const classes = useStyles();
     return (
-        <Grid container xs={12} style={{padding:'3%'}}>
+        <Grid container xs={12} className={classes.pad} style={{padding:'3%',paddingBottom:'80px'}}>
             <Grid container item xs={12} sm={12} md={12} lg={6} xl={6} justify="flex-start">
                 <Grid container item xs={12} justify="flex-start" className="contentOneTxtOne">
                 One Stop
