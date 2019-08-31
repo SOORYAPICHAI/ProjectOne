@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
                 },
                 [theme.breakpoints.up('lg')]: {
           
-                    paddingBottom:'135px',
+                    paddingBottom:'110px',
                         },
     
     },
@@ -60,7 +60,7 @@ const ContentOne = () => {
             
             </Grid>
             </Grid>
-            <Grid container item xs={12} sm={12} md={12} lg={6} xl={6}>
+            <Grid container item xs={12} sm={12} md={12} lg={6} xl={6} className='cardshadow'>
             <CarouselComponent/>
             </Grid>
         </Grid>

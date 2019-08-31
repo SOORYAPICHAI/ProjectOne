@@ -36,7 +36,25 @@ const useStyles = makeStyles(theme => ({
             justifyContent:'flex-end',
             padding:'2%',
             },
-    }
+    },
+ 
+    bottomPad:{
+        padding:'3%',
+        // background:'whitesmoke',
+        [theme.breakpoints.down('sm')]: {
+          
+            paddingBottom:'45px !important',
+            },
+        [theme.breakpoints.up('sm')]: {
+          
+            paddingBottom:'85px',
+                },
+                [theme.breakpoints.up('lg')]: {
+          
+                    paddingBottom:'110px',
+                        },
+    
+    },
    
    
   }));
@@ -66,7 +84,7 @@ const ContentTwo = () => {
     const classes = useStyles();
 
     return (
-        <Container maxWidth={state} >
+        <Container maxWidth={state} className={classes.bottomPad}>
             <Card style={{  boxShadow: '0 8px 8px -1px rgba(0,0,0,0.2)',padding:'2%',borderBottomLeftRadius:'30px',borderBottomRightRadius:'30px'}}>
             <Grid container  xs={12}>
                 <Grid item xs={12} sm={4} md={3} lg={3} xl={3}>

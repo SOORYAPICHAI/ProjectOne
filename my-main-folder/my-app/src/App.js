@@ -4,14 +4,15 @@ import './App.css';
 import Header from './header/index'
 import ContentOne from './ContentOne/index'
 import ContentTwo from './ContentTwo/index'
+import ContentThree from './ContentThree/index'
 
 function App() {
   return (
     <div className="App">
- <Header />
- <ContentOne />
- <ContentTwo/>
-
+      <Header />
+      <ContentOne />
+      <ContentTwo />
+      <ContentThree />
 
     </div>
   );
