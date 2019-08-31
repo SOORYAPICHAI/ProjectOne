@@ -29,6 +29,7 @@ const useStyles = makeStyles(theme => ({
     display: "flex",
     justifyContent: "center",
     // width: "30%"
+    height:'100px'
   },
   expand: {
     transform: "rotate(0deg)",
