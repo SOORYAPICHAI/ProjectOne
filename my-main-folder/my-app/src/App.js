@@ -12,9 +12,10 @@ function App() {
     <div className="App">
       <Header />
       <ContentOne />
-      <ContentTwo />
+      
       <ContentThree />
       <ContentFour />
+      {/* <ContentTwo /> */}
 
     </div>
   );
