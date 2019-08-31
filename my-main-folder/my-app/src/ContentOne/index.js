@@ -8,12 +8,25 @@ import CarouselComponent from './CarouselComponent'
 const useStyles = makeStyles(theme => ({
   
     pad:{
-        [theme.breakpoints.only('xs')]: {
-            paddingBottom:'15px',
+        padding:'3%',
+        [theme.breakpoints.down('sm')]: {
+          
+            paddingBottom:'45px !important',
             },
         [theme.breakpoints.up('sm')]: {
+          
             paddingBottom:'85px',
                 },
+                [theme.breakpoints.up('lg')]: {
+          
+                    paddingBottom:'135px',
+                        },
+    
+    },
+    padBottom:{
+        [theme.breakpoints.only('xs')]: {
+            paddingBottom:'45px',
+            },
     }
    
    
@@ -21,8 +34,8 @@ const useStyles = makeStyles(theme => ({
 const ContentOne = () => {
     const classes = useStyles();
     return (
-        <Grid container xs={12} className={classes.pad} style={{padding:'3%',paddingBottom:'80px'}}>
-            <Grid container item xs={12} sm={12} md={12} lg={6} xl={6} justify="flex-start">
+        <Grid container xs={12} className={classes.pad} >
+            <Grid container item xs={12} sm={12} md={12} lg={6} xl={6} justify="flex-start" className={classes.padBottom}>
                 <Grid container item xs={12} justify="flex-start" className="contentOneTxtOne">
                 One Stop
                 </Grid>
