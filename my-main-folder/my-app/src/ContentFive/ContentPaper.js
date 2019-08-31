@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Grid, Paper, Collapse } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles';
-import faq from '../assets/faq.jpg'
+import faq from '../assets/faq.png'
 import './index.css'
 
 
