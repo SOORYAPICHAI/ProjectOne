@@ -1,4 +1,4 @@
-.logo{
+.logos{
     /* align-items: center; */
     font-size: 1.5rem;
     color: #52ca9c;
@@ -6,6 +6,6 @@
     font-weight: bolder;
     text-decoration-line: line-through;
 }
-.logoAlign{
+.logoAligns{
     margin: auto;
 }

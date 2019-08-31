@@ -6,7 +6,7 @@ import './index.css'
 const ContentSix = () =>{
     return(
         <Grid  container xs={12} style={{backgroundColor:'#F5F5F5',padding:'20px',lineHeight:'2rem'}}>
-            <Grid  item xs={12} className="logo logoAlign" justify="space-around" alignItems="center">
+            <Grid  item xs={12} className="logos logoAligns" justify="space-around" alignItems="center">
             Medical Health
             </Grid>
             <Grid container item={12} justify="center">
