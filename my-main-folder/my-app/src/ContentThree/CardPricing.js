@@ -19,9 +19,9 @@ const useStyles = makeStyles(theme => ({
     '&:hover':{
        
         transition: 'all 200ms ease-in',
-        transform: 'scale(1.1)',
+       opacity:10,
         boxShadow:
-        "0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important"
+        "10px 180px 100px 10px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important"
     },
     }
 
