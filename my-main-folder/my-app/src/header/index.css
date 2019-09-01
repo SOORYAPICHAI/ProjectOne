@@ -2,8 +2,11 @@
 /* background-image: url('../assets/wave(1).svg'); */
 /* background-size: cover */
 background-color: #52ca9c;
-border-bottom-left-radius: 20px;
-border-bottom-right-radius: 20px;
+/* border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px; */
+position: sticky;
+top: 0;
+z-index: 2;
 }
 .logo{
     /* align-items: center; */
@@ -104,8 +107,8 @@ border-bottom-right-radius: 20px;
     .backgroundheader{
         /* background-image: url('../assets/wave(1).svg'); */
         /* background-size: cover */
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
+        /* border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px; */
         }
   }
 
@@ -115,7 +118,7 @@ border-bottom-right-radius: 20px;
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 1000; /* Stay on top */
     top: 0; /* Stay at the top */
     right: 0;
     background-color: #111; /* Black*/
